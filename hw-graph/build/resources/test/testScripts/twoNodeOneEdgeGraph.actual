@@ -1,0 +1,17 @@
+# George Wang
+# Test that a graph can be created, a pair of nodes and an edge between them can be added.
+# The nodes can be printed out.
+
+# Create a graph
+created graph graph1
+
+# Add a pair of nodes
+added node n1 to graph1
+added node n2 to graph1
+
+# Add an edge
+added edge e1 from n1 to n2 in graph1
+
+# Print the nodes in the graph
+graph1 contains: n1 n2
+the children of n1 in graph1 are: n2(e1)

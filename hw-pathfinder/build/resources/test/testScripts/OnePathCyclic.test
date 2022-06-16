@@ -1,0 +1,10 @@
+# Find a path with Dijkstra's algorithm when
+# there exist one path between the node in an acyclic graph
+
+CreateGraph simpleGraph
+
+AddNode simpleGraph A
+
+AddEdge simpleGraph A A 1
+
+FindPath simpleGraph A A

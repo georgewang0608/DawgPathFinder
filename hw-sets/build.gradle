@@ -1,0 +1,6 @@
+task junitTests(type: Test) {
+  group "verification"
+  filter {
+    includeTestsMatching "sets.junitTests.*"
+  }
+}

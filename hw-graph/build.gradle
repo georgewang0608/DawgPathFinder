@@ -1,0 +1,21 @@
+task validateGraphDesign {
+  group "homework"
+  dependsOn clean
+  dependsOn compileJava
+  dependsOn compileTestJava
+  dependsOn javadoc
+}
+
+task scriptTests(type: Test) {
+  group "verification"
+  filter {
+    includeTestsMatching "graph.scriptTestRunner.*"
+  }
+}
+
+task junitTests(type: Test) {
+  group "verification"
+  filter {
+    includeTestsMatching "graph.junitTests.*"
+  }
+}

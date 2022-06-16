@@ -1,0 +1,40 @@
+pathfinder/textInterface/TextInterfaceView.java
+ pathfinder.textInterface.TextInterfaceView
+pathfinder/ModelAPI.java
+ pathfinder.ModelAPI
+pathfinder/datastructures/Path.java
+ pathfinder.datastructures.Path
+ pathfinder.datastructures.Path$1
+ pathfinder.datastructures.Path$Segment
+pathfinder/textInterface/CoordinateProperties.java
+ pathfinder.textInterface.CoordinateProperties
+pathfinder/parser/CampusBuilding.java
+ pathfinder.parser.CampusBuilding
+pathfinder/textInterface/package-info.java
+ pathfinder.textInterface.package-info
+pathfinder/parser/CampusPathsParser.java
+ pathfinder.parser.CampusPathsParser
+ pathfinder.parser.CampusPathsParser$ParserException
+pathfinder/textInterface/TextInterfaceController.java
+ pathfinder.textInterface.TextInterfaceController
+pathfinder/textInterface/Direction.java
+ pathfinder.textInterface.Direction
+ pathfinder.textInterface.Direction$1
+pathfinder/parser/package-info.java
+ pathfinder.parser.package-info
+pathfinder/parser/CampusPath.java
+ pathfinder.parser.CampusPath
+pathfinder/datastructures/package-info.java
+ pathfinder.datastructures.package-info
+pathfinder/textInterface/InputHandler.java
+ pathfinder.textInterface.InputHandler
+pathfinder/datastructures/Point.java
+ pathfinder.datastructures.Point
+pathfinder/Dijkstra.java
+ pathfinder.Dijkstra
+ pathfinder.Dijkstra$1
+ pathfinder.Dijkstra$2
+pathfinder/CampusMap.java
+ pathfinder.CampusMap
+pathfinder/textInterface/Pathfinder.java
+ pathfinder.textInterface.Pathfinder

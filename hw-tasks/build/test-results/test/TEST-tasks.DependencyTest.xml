@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tasks.DependencyTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-05-20T23:02:47" hostname="georges-MacBook-Pro.local" time="0.017">
+  <properties/>
+  <testcase name="testCreationCorrect" classname="tasks.DependencyTest" time="0.002"/>
+  <testcase name="testToString" classname="tasks.DependencyTest" time="0.014"/>
+  <testcase name="testCreationSecondArgNull" classname="tasks.DependencyTest" time="0.0"/>
+  <testcase name="testCreationFirstArgNull" classname="tasks.DependencyTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

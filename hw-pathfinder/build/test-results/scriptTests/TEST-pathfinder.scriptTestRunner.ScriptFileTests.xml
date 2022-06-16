@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pathfinder.scriptTestRunner.ScriptFileTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2022-06-04T03:59:03" hostname="georges-MacBook-Pro.local" time="0.146">
+  <properties/>
+  <testcase name="checkOutput[exampleDijkstraTest]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.086"/>
+  <testcase name="checkOutput[SamePathCyclic]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.004"/>
+  <testcase name="checkOutput[OnePathAcyclic]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.003"/>
+  <testcase name="checkOutput[ZeroPathAcyclic]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.003"/>
+  <testcase name="checkOutput[NoEndNode]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.004"/>
+  <testcase name="checkOutput[TwoPathAcyclic]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.013"/>
+  <testcase name="checkOutput[NoStartEndNode]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.003"/>
+  <testcase name="checkOutput[ZeroPathCyclic]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.004"/>
+  <testcase name="checkOutput[SamePathAcyclic]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.006"/>
+  <testcase name="checkOutput[NoStartNode]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.003"/>
+  <testcase name="checkOutput[MutiplePathCyclic]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.005"/>
+  <testcase name="checkOutput[OnePathCyclic]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.006"/>
+  <testcase name="checkOutput[MutiplePathAcyclic]" classname="pathfinder.scriptTestRunner.ScriptFileTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,8 @@
+# George Wang
+# Test that a graph can be created with empty nodes. And the empty node can be printed out.
+
+# Create a graph
+created graph graph1
+
+# Print the nodes in the graph
+graph1 contains:

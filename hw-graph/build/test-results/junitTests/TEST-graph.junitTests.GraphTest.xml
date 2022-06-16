@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graph.junitTests.GraphTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2022-05-20T02:30:42" hostname="georges-MacBook-Pro.local" time="0.013">
+  <properties/>
+  <testcase name="testGetChild" classname="graph.junitTests.GraphTest" time="0.005"/>
+  <testcase name="testGetLabel" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="testGetValue" classname="graph.junitTests.GraphTest" time="0.0"/>
+  <testcase name="testNodeEquals" classname="graph.junitTests.GraphTest" time="0.0"/>
+  <testcase name="testNodeHashCode" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="testAddingWrongEdge" classname="graph.junitTests.GraphTest" time="0.0"/>
+  <testcase name="testNodeContain" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="testEdgeContain" classname="graph.junitTests.GraphTest" time="0.0"/>
+  <testcase name="testEdgeHashCode" classname="graph.junitTests.GraphTest" time="0.0"/>
+  <testcase name="testEdgeEquals" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="testGetParent" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="testNodeNum" classname="graph.junitTests.GraphTest" time="0.001"/>
+  <testcase name="testEdgeNum" classname="graph.junitTests.GraphTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

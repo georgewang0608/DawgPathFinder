@@ -1,0 +1,35 @@
+## CSE 331 hw-graph Coding Questions
+
+## Part 2
+###########################################################################
+Briefly explain why you included the operations you did and why you feel they are a sufficient
+interface to a graph. If your design includes multiple classes or interfaces, explain why you
+included each one; if not, explain whether you considered additional classes and why you decided
+not to include them.
+
+
+TODO: Your answer here!
+Most of the operations i included are either to fetch the data stored in the graph, information about the graph such as
+listNode, edgeNum, containNode or to change the data stored in the graph, such as addNode, deleteEdge,
+changeLabel. These functions are like the IO for the graph class which ensures that the client can fully interact and
+acquire the information stored in the graph ADT. I included two inner classes, Edge and Node as they are the fundamental
+elements that made up a graph. I also include two comparing methods for these two inner classes hashcode and equals.These
+can be essential to the graph class, because we need to make sure there will be no duplicated edges or nodes using
+the comparing methods.
+
+
+## Part 3
+###########################################################################
+
+What was your testing strategy for this assignment? How do your script tests and JUnit tests
+differ from each other (if they do), and why?
+
+TODO: Your answer here!
+My testing strategy is to test ensure the maximum code coverage and use branch-and-bound heuristic to cover up edge
+cases and most of the scenarios. In the script test, I tested the code branches by including duplicated tests. I also
+included several conditions at the bound scenario, for example, test empty graph, test graph with acyclic edges. For,
+junit test, i included every method of the function to maximize the code coverage. For script test, it is testing more
+fundamental functionality of the graph class. It also tests scenario instead of a specific functionality. The junit test
+on the other hand is testing more complex behavior and is built upon the passing of script test. It is also more modularized
+by which I mean each test function in the junit test focus primarily one functionality of the graph class.
+

@@ -1,0 +1,24 @@
+task runHelloWorld(type: JavaExec) {
+  group = "homework"
+  mainClass = "setup/HelloWorld"
+  classpath = sourceSets.main.runtimeClasspath
+}
+
+task runHolaWorld(type: JavaExec) {
+  group = "homework"
+  mainClass = "setup/HolaWorld"
+  classpath = sourceSets.main.runtimeClasspath
+}
+
+task runRandomHello(type: JavaExec) {
+  group = "homework"
+  mainClass = "setup/RandomHello"
+  classpath = sourceSets.main.runtimeClasspath
+}
+
+task runAdder(type: JavaExec) {
+  group = "homework"
+  mainClass = "setup/Adder"
+  standardInput = System.in
+  classpath = sourceSets.main.runtimeClasspath
+}

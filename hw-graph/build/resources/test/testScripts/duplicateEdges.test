@@ -1,0 +1,16 @@
+# George Wang
+# Test that a graph can be created and no duplicated edges can be added
+
+# Create a graph
+CreateGraph graph1
+
+# Add a pair of nodes
+AddNode graph1 n1
+AddNode graph1 n2
+
+# Add the same edge
+AddEdge graph1 n1 n2 e1
+AddEdge graph1 n1 n2 e1
+
+# Print the nodes in the graph
+ListChildren graph1 n1

@@ -1,0 +1,5 @@
+Briefly list any changes you made to your graph class during hw-pathfinder, and why you made those changes.
+
+I made the two inner class static because that will allow the client to create Node and Edge class without creating
+a Graph instance prior to that. For example, if I would like to test the functionality of the Node inner class, then i
+no longer needs to create a graph instance just to construct the Node, which makes the code less redundant.

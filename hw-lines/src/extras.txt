@@ -1,0 +1,11 @@
+CSE 331 Homework.  Answers to written questions.
+Edit this file to supply your answers.
+
+Name:  George Wang
+
+Describe any additional functionality you added to your application, or any
+significant changes you made to the starter code beyond the basic requirements
+of the assignment, below:
+
+I added the text box and a button for clicking, added new state to App function to store the coordinate and added
+onChange method to return value to App and added a new helper method onCenter to parse the input from the map text box

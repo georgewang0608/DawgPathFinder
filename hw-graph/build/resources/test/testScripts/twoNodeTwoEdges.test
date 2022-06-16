@@ -1,0 +1,19 @@
+# George Wang
+# Test that a graph can be created, a pair of nodes and a pair of edges connecting each nodes can be added. The nodes
+# and edges can be printed
+
+# Create a graph
+CreateGraph graph1
+
+# Add a pair of nodes
+AddNode graph1 n1
+AddNode graph1 n2
+
+# Add a pair of edges
+AddEdge graph1 n2 n1 e1
+AddEdge graph1 n1 n2 e2
+
+# Print the nodes in the graph and the outgoing edges from n1
+ListNodes graph1
+ListChildren graph1 n1
+ListChildren graph1 n2

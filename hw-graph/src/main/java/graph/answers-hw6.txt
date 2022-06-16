@@ -1,0 +1,73 @@
+## CSE 331 HW6 Questions
+
+NOTE: This file is used as part of HW6, and is not due as part of the HW5
+submission. You may leave it blank for HW5.
+
+## Part 1
+###########################################################################
+
+A few examples of possible Graph representations:
+
+    A: A collection of nodes and a collection of edges.
+    B: An adjacency list, in which each node is associated with a list of its outgoing edges.
+    C: An adjacency matrix, which explicitly represents, for every pair ⟨A,B⟩ of nodes, whether there 
+       is a link from A to B, and how many.
+
+1. In two or three sentences, explain an advantage and a disadvantage of each of the
+representations listed above (for example, in terms of runtime complexity, space
+complexity, or ease of implementation).
+A: advantage: Easier to add Nodes and Edges. We can just call add method to collection which optimize the runtime as O(1).
+   disadvantage: Harder to get the outgoing edges of one node as i have to traverse the whole edges collection and look
+   into each edge to find out what the parent node is, making it harder to implement.
+B: advantage: Easier to implement the listChildren method. As we find the node in the list, we can directly return its
+   corresponding list and return its value.
+   disadvantage: Worse runtime for adding method because we have to traverse through the nodes and add the outgoing and
+   ingoing node to both the parent and child node which makes the runtime O(n).
+C: advantage: Easy and faster to add an edge, suppose we can access the matrix by the position index of a node
+   and modify the 2-D array using the index which guarantee a runtime of O(1).
+   disadvantage: Worse space complexity. The matrix will store data even if there does not exist an Edge which means it
+   will take up more memory space when the graph is really large but have few edges.
+
+
+
+
+2. In two to three sentences, describe the representation you chose and explain why you
+chose it. If you chose to use a different representation than one of the three we described
+above, be sure to list its advantages and disadvantages, too.
+
+I chose representation A, because I think collections would be the easiest to implement, especially for adding node,edges
+and returning the list of nodes, which means i can mainly focusing on the correctness code. For the other two versions
+instead, We need to keep track of which node to add to, it is much more complicated: suppose we failed to keep track of
+the nodes to add to, the whole graph will store wrong information and can cause insidious bug which could be hard to find.
+
+
+
+
+## Part 4
+###########################################################################
+
+    (Please keep your answers brief and to-the-point.)
+
+1. Describe any new tests you added and why you added them, or why you feel that your original
+tests alone are sufficient.
+
+I further modularized the test functions so that each function can focus on specific
+functionality of the graph, for example i split the test for nodeNum and edgeNum from testNum. I added new
+observer tests for each inner classes. I added one new test to test if addEdge function would work
+properly when the input contains Node that does not exist, because it is not tested in junit test and
+could be essential to ensure the graph works properly. I also initialize all test graphs using BeforeClass
+clause to reduce the redundancy and makes the test more neat.
+
+
+2. Did you make any changes to your specifications as you were implementing your Graph? (yes/no)
+If yes, describe your changes and why you made them.
+
+yes
+I change my inner classes to immutable in order to lower the risk of rep exposure and added observer functions
+to them for junit test. I removed all the modifier for the inner-class while making them immutable.
+I change the field from list to set as it will ensure no duplicated edges and nodes. Beside that,
+I deleted several redundant or useless methods and exceptions such as delete nodes, and IllegalArgumentExceptions as
+i already specify that in my spec.requires.
+
+
+

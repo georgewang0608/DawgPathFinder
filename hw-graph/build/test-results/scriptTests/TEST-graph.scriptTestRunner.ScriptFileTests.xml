@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="graph.scriptTestRunner.ScriptFileTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2022-05-20T19:56:53" hostname="georges-MacBook-Pro.local" time="0.404">
+  <properties/>
+  <testcase name="checkOutput[twoNodeOneEdgeGraph]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.111"/>
+  <testcase name="checkOutput[twoNodesFourEdgesGraph]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.029"/>
+  <testcase name="checkOutput[oneNodeCyclicGraph]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.022"/>
+  <testcase name="checkOutput[emptyGraph]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.039"/>
+  <testcase name="checkOutput[oneNodeTwoEdgesCyclicGraph]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.039"/>
+  <testcase name="checkOutput[duplicateEdges]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.016"/>
+  <testcase name="checkOutput[exampleTest2]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.017"/>
+  <testcase name="checkOutput[twoNodeTwoEdges]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.016"/>
+  <testcase name="checkOutput[exampleTest1]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.018"/>
+  <testcase name="checkOutput[oneNodeGraph]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.041"/>
+  <testcase name="checkOutput[twoNodesGraph]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.038"/>
+  <testcase name="checkOutput[duplicatedNode]" classname="graph.scriptTestRunner.ScriptFileTests" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+# Find a path with Dijkstra's algorithm when
+# there does not exist a path between the nodes in a cyclic graph
+
+CreateGraph simpleGraph
+
+AddNode simpleGraph A
+AddNode simpleGraph B
+AddNode simpleGraph C
+AddNode simpleGraph D
+
+AddEdge simpleGraph A B 10.0
+AddEdge simpleGraph A C 1
+AddEdge simpleGraph C C 2
+
+FindPath simpleGraph A D

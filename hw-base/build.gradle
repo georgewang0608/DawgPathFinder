@@ -1,0 +1,6 @@
+task runNatural(type: JavaExec) {
+  group = "homework"
+  mainClass = "bases/Natural"
+  standardInput = System.in
+  classpath = sourceSets.main.runtimeClasspath
+}

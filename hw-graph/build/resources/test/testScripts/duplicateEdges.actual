@@ -1,0 +1,16 @@
+# George Wang
+# Test that a graph can be created and no duplicated edges can be added
+
+# Create a graph
+created graph graph1
+
+# Add a pair of nodes
+added node n1 to graph1
+added node n2 to graph1
+
+# Add the same edge
+added edge e1 from n1 to n2 in graph1
+added edge e1 from n1 to n2 in graph1
+
+# Print the nodes in the graph
+the children of n1 in graph1 are: n2(e1)

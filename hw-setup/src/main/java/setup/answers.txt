@@ -1,0 +1,55 @@
+## CSE 331 hw-setup Questions
+## Part 7: Answering Questions About the Code
+
+1. Why did Fibonacci fail the testThrowsIllegalArgumentException< test? What (if anything) did
+you have to do to fix it? If you did not have to change anything to fix this issue, explain why.
+
+Because for the getFibTerm function in Fibonacci, the condition is set to be n <= 0 when the IllegalArgument Exception
+will be thrown. The correct condition should be n < 0 which does not include 0, since 0 is a nonnegative number. The
+exception should be thrown when the argument is negative.
+
+
+2. Why did Fibonacci fail the testBaseCase test? What (if anything) did you have to do to fix
+it? If you did not have to change anything to fix this issue, explain why.
+
+The Fibonacci fails the testBaseCase test is because the IllegalArgumentException is thrown for the base case 0. When 0
+pass in as the argument, the getFibTerm should accept the argument as it is valid and nonnegative. By changing the if
+condition to n < 0, the test will pass noramlly.
+
+
+3.Why did Fibonacci fail the testInductiveCase test? What (if anything) did you have to do to
+fix it? If you did not have to change anything to fix this issue, explain why.
+
+The Fibonacci fails because the second if condition of getFibTerm is wrong. When the index is 2, the fibonacci sequence
+should be 2 instead of 1. So instead of returning 1 when n = 2, the getFibTerm function should enter the recursive case,
+which would return 2. A easy fix is changing n <=2 to n < 2.
+
+
+
+## Part 8: Debugger Tutorial
+
+1. What are the values of "x", "y", and "sum" printed by your statement? Why was x not equal 
+to the first integer entered here, and how could we fix this?
+
+The values printed are x:4, y:4, sum:0. The reason is that int x is set to equal to 2*(console.nextInt()/2). Since we
+input 5, console.nextInt() will return 5. As 5 is an integer, 5/2 will be 2 and 2*2 = 4. That is why x turns out to be
+4 instead of 5. In order to fix it. Simply change the code to x = console.nextInt().
+
+2. What are all the names and values listed in the “Variables” panel? What does the “frames” 
+tab list as the current method and line number? (Write down the text that was highlighted when 
+the Debug perspective first opened.)
+
+names and values:
+x=3
+y=4
+current method: computeSum
+current line number: 43
+
+3. What are all the names and values listed in the “Variables” panel after each of the two step overs?
+step1:
+x=3
+y=4
+step2:
+x=3
+y=4
+sum=-1

@@ -1,0 +1,6 @@
+tasks/TaskTest.java
+ tasks.TaskTest
+tasks/TaskSorterTest.java
+ tasks.TaskSorterTest
+tasks/DependencyTest.java
+ tasks.DependencyTest

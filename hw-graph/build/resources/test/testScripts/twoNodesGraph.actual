@@ -1,0 +1,13 @@
+# George Wang
+# Test that a graph can be created, a pair of nodes can be added and the nodes can be printed out.
+
+# Create a graph
+created graph graph1
+
+# Add a pair of nodes
+added node n1 to graph1
+added node n2 to graph1
+
+# Print the nodes in the graph
+graph1 contains: n1 n2
+

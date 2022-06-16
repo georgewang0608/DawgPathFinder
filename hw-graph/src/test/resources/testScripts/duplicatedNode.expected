@@ -1,0 +1,12 @@
+# George Wang
+# Test that a graph can be created and no duplicated nodes can be added
+
+# Create a graph
+created graph graph1
+
+# Add the same node
+added node n1 to graph1
+added node n1 to graph1
+
+# Print the nodes in the graph
+graph1 contains: n1

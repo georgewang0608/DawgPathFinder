@@ -1,0 +1,19 @@
+# Find a path with Dijkstra's algorithm when
+# there exist one path between the nodes in an acyclic graph
+
+created graph simpleGraph
+
+added node A to simpleGraph
+added node B to simpleGraph
+added node C to simpleGraph
+added node D to simpleGraph
+
+added edge 1.000 from A to B in simpleGraph
+added edge 1.000 from B to C in simpleGraph
+added edge 1.000 from C to D in simpleGraph
+
+path from A to D:
+A to B with weight 1.000
+B to C with weight 1.000
+C to D with weight 1.000
+total cost: 3.000
